@@ -1,0 +1,173 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 20px 40px 20px 40px;
+  font-family: Arial, sans-serif;
+  animation: mymove 5s infinite;
+}
+a{
+  margin-top: 100px;
+  font-size: 20px;
+}
+p{
+  color: black;
+  font-size: 80px;
+  text-align: center;
+  font-family: 'Times New Roman', Times, serif;
+  margin: 20px;
+}
+strong{
+  font-size: 20px;
+  color: white;
+  text-align: center;
+  padding: 5px;
+  
+}
+.left, .input{
+  margin:0px;
+  padding:50px;
+  text-align: center;
+  width:30%;
+  background-color: white;
+  height: 800px;
+  border-radius: 0px;
+}
+.container{
+  align-items:center;
+  display: flex;
+ 
+
+}
+.search-bar{
+  width:100%;
+  max-width:700px;
+  background: grey;
+  margin-top: 25px;
+  display: flex;
+  border-radius: 60px;
+  padding: 10px 20px;
+}
+.search-bar input{
+  background: transparent;
+  flex: 1;
+  border:0;
+  outline:none;
+  padding: 10px 20px;
+  font-size: 20px;
+
+}
+.search-bar input i{
+  width: 40px;
+  cursor: pointer;
+}
+.search-bar button{
+  font-size: 25px;
+  border: 0;
+  border-radius: 50%;
+  cursor: pointer;
+  background-color: transparent;
+}
+.thilak{
+  color:black;
+  text-align: justify;
+}
+
+.flex-container{
+  background-color: whitesmoke;
+  margin: 0px;
+  padding: 50px;
+  width: 60%;
+  border-radius:0px;
+  height: 800px;
+
+}
+.right{
+  display: flex;
+  flex-direction: row;
+  
+}
+.box1{
+  width:200px;
+  height:100px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  
+  
+
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+}
+span{
+  
+  margin: 20px;
+  padding: 5px;
+  font-size: 20px;
+  color: white;
+  font-family:'Times New Roman', Times, serif;
+}
+.right1{
+  display: flex;
+  flex-flow: row;
+}
+.box2{
+  width:200px;
+  height:100px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+}
+.right2{
+  display: flex;
+  flex-direction: row;
+}
+.box3{
+  width:200px;
+  height:100px;
+  background-color: cornflowerblue;
+  border-radius: 20px;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-evenly;
+  align-content: center;
+  text-align: center;
+  
+  flex-direction: row;
+  padding: 20px;
+  margin: 20px;
+}
+.inner{
+  text-align: center;
+  justify-content: center;
+}
+.icon{
+  font-size: 150px;
+}
+.con{
+  font-size: 30px;
+  align-items: left;
+  color:orange;
+}
+.cons{
+  font-size: 30px;
+  align-items: left;
+  color:green;
+}
+n{
+  text-align: justify;
+  font-weight: 100;
+  font-style: normal;
+}
